@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Robot-end-effector-HF8z']
+
+roboflow:
+  workspace: jerome-75drn
+  project: robot_end_effector
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/jerome-75drn/robot_end_effector/dataset/1
